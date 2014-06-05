@@ -21,6 +21,9 @@
 		45ADAF6A1940D68600D0FA43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADAF4C1940D68600D0FA43 /* UIKit.framework */; };
 		45ADAF721940D68600D0FA43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAF701940D68600D0FA43 /* InfoPlist.strings */; };
 		45ADAF741940D68600D0FA43 /* GalaxyQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAF731940D68600D0FA43 /* GalaxyQuestTests.m */; };
+		45ADAF7E1940D76E00D0FA43 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAF7D1940D76E00D0FA43 /* mars.jpg */; };
+		45ADAF811940DDE700D0FA43 /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAF7F1940DDE700D0FA43 /* sun.jpg */; };
+		45ADAF821940DDE700D0FA43 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAF801940DDE700D0FA43 /* moon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		45ADAF6F1940D68600D0FA43 /* GalaxyQuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GalaxyQuestTests-Info.plist"; sourceTree = "<group>"; };
 		45ADAF711940D68600D0FA43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45ADAF731940D68600D0FA43 /* GalaxyQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalaxyQuestTests.m; sourceTree = "<group>"; };
+		45ADAF7D1940D76E00D0FA43 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		45ADAF7F1940DDE700D0FA43 /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
+		45ADAF801940DDE700D0FA43 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		45ADAF4E1940D68600D0FA43 /* GalaxyQuest */ = {
 			isa = PBXGroup;
 			children = (
+				45ADAF7F1940DDE700D0FA43 /* sun.jpg */,
+				45ADAF801940DDE700D0FA43 /* moon.jpg */,
+				45ADAF7D1940D76E00D0FA43 /* mars.jpg */,
 				45ADAF571940D68600D0FA43 /* AppDelegate.h */,
 				45ADAF581940D68600D0FA43 /* AppDelegate.m */,
 				45ADAF5A1940D68600D0FA43 /* Main.storyboard */,
@@ -230,6 +239,9 @@
 			files = (
 				45ADAF611940D68600D0FA43 /* Images.xcassets in Resources */,
 				45ADAF531940D68600D0FA43 /* InfoPlist.strings in Resources */,
+				45ADAF811940DDE700D0FA43 /* sun.jpg in Resources */,
+				45ADAF7E1940D76E00D0FA43 /* mars.jpg in Resources */,
+				45ADAF821940DDE700D0FA43 /* moon.jpg in Resources */,
 				45ADAF5C1940D68600D0FA43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
